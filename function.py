@@ -155,9 +155,25 @@
 #     return counter_fun(count)
 # print(counter_fun(19))
 
-# 16.
-def divide(c,*args,d=20,**kwargs):
-    print(type(args))
-    print(type(kwargs))
-    return args,kwargs,c+d
-print(divide(14,15,2,32,52,p=67,q=89,r="Apple"))
+# # 16.
+# def divide(c,*args,d=20,**kwargs):
+#     print(type(args))
+#     print(type(kwargs))
+#     return args,kwargs,c+d
+# print(divide(14,15,2,32,52,p=67,q=89,r="Apple"))
+
+# # 17.
+# print(type((3,)))
+
+# # 18.
+# def add(a,b,c):
+#     return a+b+c
+# number={"a":10,"b":20,"c":30}
+# print(add(**number))
+# number={"p":10,"q":20,"r":30}
+# print(add(**number))
+
+# 19.
+def show_letters(a,b,c):
+    print(a,b,c)
+show_letters(*"cat")
