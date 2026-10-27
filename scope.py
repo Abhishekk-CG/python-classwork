@@ -19,4 +19,4 @@ def numb():
     global num
     num+=10
     print(num)
-numb() #To overcome that problem we have to use global declaration to make the global variable accessible and reassignable.
+numb() 
