@@ -1,10 +1,10 @@
-# # 1.
-# a=100 #global variable
-# def num():
-#     a=10 #local variable created
-#     print(a)
-# num() #function calling
-# print(a) #global variable calling
+# 1.
+a=100 #global variable
+def num():
+    a=10 #local variable created
+    print(a)
+num() #function calling
+print(a) #global variable calling
 
 # 2.
 num=100
