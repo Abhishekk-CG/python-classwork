@@ -6,12 +6,12 @@
 # num() #function calling
 # print(a) #global variable calling
 
-# # 2.
-# num=100
-# def numb():
-#     num+=10
-#     print(num)
-# numb() # it will give an error because reassignment doesnt take place inside a fn of global scope
+# 2.
+num=100
+def numb():
+    num+=10
+    print(num)
+numb() # it will give an error because reassignment doesnt take place inside a fn of global scope
 
 # 3.
 num=100
