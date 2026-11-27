@@ -1,0 +1,26 @@
+# # 1.
+# square=lambda number: number*number
+# print(square(5))
+
+# # 2.
+# greater=lambda a,b: a if a>b else b
+# print(greater(8,9))
+
+# # 3.
+# check=lambda n: "EVEN" if n%2==0 else "ODD"
+# print(check(89))
+
+# # 4.
+# num=lambda n: "Positive" if n>0 else "Negative" if n<0 else "Zero" 
+# print(num(-10))
+
+# # 5.
+# words = ["apple", "kiwi", "banana", "fig"]
+# result=sorted(words,key=lambda word: len(word))
+# print(result)
+
+# # 6.
+# words = ["apple", "kiwi", "banana", "fig"]
+# result=sorted(words,key=lambda word: len(word),reverse=True)
+# print(result)
+
