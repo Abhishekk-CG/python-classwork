@@ -24,3 +24,18 @@
 # result=sorted(words,key=lambda word: len(word),reverse=True)
 # print(result)
 
+# # 7.
+# numbers=[21,15,42,31,18]
+# result=sorted(numbers, key=lambda n: n%10,reverse=True)
+# print(result)
+
+# # 8.
+# words = ["apple", "banana", "cat", "dog"]
+# result=sorted(words, key=lambda word: word[-1])
+# print(result)
+
+# # 9.
+# greet=lambda: "Hello Students!"
+# print(greet())
+
+# 10.
